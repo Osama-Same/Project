@@ -1,0 +1,50 @@
+body{
+    margin: auto;
+    
+}
+.from{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    padding: 4rem;
+    margin: 7rem auto;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+.from section{
+    width: 100%;
+    display: inline-grid;
+    margin: 0.5rem 0;
+} 
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+input[type="tel"],
+select,
+textarea,
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.from section button{
+    margin: 1.5rem 0;
+    background-color: blue;
+    color:white;
+    height: 49%;
+    width: 109%;
+    text-align: center;
+}
+.from section label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+.from section button:hover{
+    
+}
